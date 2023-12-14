@@ -1,7 +1,26 @@
-#canvas1{
-    border:1px solid black;
+#canvas1 {
+    padding: 20px;
+    border: 1px solid black;
     display: block;
-    width: 900px;
-    height:500px;
-    margin:0 auto
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto
+}
+
+#canvas2 {
+    padding: 20px;
+    border: 2px solid black;
+    display: block;
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto
+}
+
+#canvas3 {
+    padding: 20px;
+    border: 2px solid black;
+    display: block;
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto
 }
