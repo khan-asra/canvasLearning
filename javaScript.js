@@ -115,6 +115,45 @@ window.addEventListener('load', function () {
     }
 
 
+    //shadow attributeColor
+    //shadowColor
+    //shadowOffSetX
+    //shadowOffSetX
+    //shadowBlur
+
+    x = 80
+    y = 6
+    for (let index = 0; index < 2; index++) {
+        ctx.beginPath();
+        ctx.strokeStyle = "teal"
+        ctx.lineWidth = 5
+        ctx.shadowColor = "black"
+        ctx.shadowOffsetX = 5
+        ctx.shadowOffsetY = 5
+        ctx.shadowBlur = 5
+        ctx.lineCap = "square"
+        ctx.moveTo(x, y)
+        ctx.lineTo(x + 20, y)
+        ctx.stroke()
+
+
+        ctx.beginPath();
+        ctx.strokeStyle = "teal"
+        ctx.lineWidth = 5
+        ctx.shadowColor = "black"
+        ctx.shadowOffsetX = 5
+        ctx.shadowOffsetY = 5
+        ctx.shadowBlur = 5
+        ctx.moveTo(x, y + 30)
+        ctx.lineTo(x + 20, y + 30)
+        ctx.stroke()
+        x = x + 100;
+
+
+    }
+
+
+
 
 
 
